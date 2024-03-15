@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85A18A362BA381BB0097163E /* eligiusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A18A352BA381BB0097163E /* eligiusApp.swift */; };
+		85A18A382BA381BB0097163E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A18A372BA381BB0097163E /* ContentView.swift */; };
+		85A18A3A2BA381BD0097163E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A18A392BA381BD0097163E /* Assets.xcassets */; };
+		85A18A3D2BA381BD0097163E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A18A3C2BA381BD0097163E /* Preview Assets.xcassets */; };
+		85A18A552BA3BB5A0097163E /* Ac437_Apricot_Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85A18A542BA3BB5A0097163E /* Ac437_Apricot_Mono.ttf */; };
+		85A18A5D2BA3BDC90097163E /* Epson2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85A18A5C2BA3BDC90097163E /* Epson2.otf */; };
+		85A18A5F2BA3BEBE0097163E /* OPTICaslon-ExtraCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85A18A5E2BA3BEBE0097163E /* OPTICaslon-ExtraCondensed.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85A18A322BA381BB0097163E /* eligius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eligius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A18A352BA381BB0097163E /* eligiusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eligiusApp.swift; sourceTree = "<group>"; };
+		85A18A372BA381BB0097163E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85A18A392BA381BD0097163E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85A18A3C2BA381BD0097163E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85A18A3E2BA381BD0097163E /* eligius.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = eligius.entitlements; sourceTree = "<group>"; };
+		85A18A4F2BA3B95B0097163E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		85A18A542BA3BB5A0097163E /* Ac437_Apricot_Mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ac437_Apricot_Mono.ttf; path = eligius/Ac437_Apricot_Mono.ttf; sourceTree = "<group>"; };
+		85A18A5C2BA3BDC90097163E /* Epson2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Epson2.otf; sourceTree = "<group>"; };
+		85A18A5E2BA3BEBE0097163E /* OPTICaslon-ExtraCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OPTICaslon-ExtraCondensed.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85A18A2F2BA381BB0097163E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85A18A292BA381BB0097163E = {
+			isa = PBXGroup;
+			children = (
+				85A18A542BA3BB5A0097163E /* Ac437_Apricot_Mono.ttf */,
+				85A18A5E2BA3BEBE0097163E /* OPTICaslon-ExtraCondensed.otf */,
+				85A18A5C2BA3BDC90097163E /* Epson2.otf */,
+				85A18A342BA381BB0097163E /* eligius */,
+				85A18A332BA381BB0097163E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85A18A332BA381BB0097163E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85A18A322BA381BB0097163E /* eligius.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85A18A342BA381BB0097163E /* eligius */ = {
+			isa = PBXGroup;
+			children = (
+				85A18A4F2BA3B95B0097163E /* Info.plist */,
+				85A18A352BA381BB0097163E /* eligiusApp.swift */,
+				85A18A372BA381BB0097163E /* ContentView.swift */,
+				85A18A392BA381BD0097163E /* Assets.xcassets */,
+				85A18A3E2BA381BD0097163E /* eligius.entitlements */,
+				85A18A3B2BA381BD0097163E /* Preview Content */,
+			);
+			path = eligius;
+			sourceTree = "<group>";
+		};
+		85A18A3B2BA381BD0097163E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85A18A3C2BA381BD0097163E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85A18A312BA381BB0097163E /* eligius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A18A412BA381BD0097163E /* Build configuration list for PBXNativeTarget "eligius" */;
+			buildPhases = (
+				85A18A2E2BA381BB0097163E /* Sources */,
+				85A18A2F2BA381BB0097163E /* Frameworks */,
+				85A18A302BA381BB0097163E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eligius;
+			productName = eligius;
+			productReference = 85A18A322BA381BB0097163E /* eligius.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85A18A2A2BA381BB0097163E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					85A18A312BA381BB0097163E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 85A18A2D2BA381BB0097163E /* Build configuration list for PBXProject "eligius" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85A18A292BA381BB0097163E;
+			productRefGroup = 85A18A332BA381BB0097163E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85A18A312BA381BB0097163E /* eligius */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85A18A302BA381BB0097163E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A18A5D2BA3BDC90097163E /* Epson2.otf in Resources */,
+				85A18A5F2BA3BEBE0097163E /* OPTICaslon-ExtraCondensed.otf in Resources */,
+				85A18A3D2BA381BD0097163E /* Preview Assets.xcassets in Resources */,
+				85A18A552BA3BB5A0097163E /* Ac437_Apricot_Mono.ttf in Resources */,
+				85A18A3A2BA381BD0097163E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85A18A2E2BA381BB0097163E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A18A382BA381BB0097163E /* ContentView.swift in Sources */,
+				85A18A362BA381BB0097163E /* eligiusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		85A18A3F2BA381BD0097163E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85A18A402BA381BD0097163E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		85A18A422BA381BD0097163E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = eligius/eligius.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eligius/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eligius/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aingel.eligius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		85A18A432BA381BD0097163E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = eligius/eligius.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eligius/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eligius/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aingel.eligius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85A18A2D2BA381BB0097163E /* Build configuration list for PBXProject "eligius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A18A3F2BA381BD0097163E /* Debug */,
+				85A18A402BA381BD0097163E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A18A412BA381BD0097163E /* Build configuration list for PBXNativeTarget "eligius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A18A422BA381BD0097163E /* Debug */,
+				85A18A432BA381BD0097163E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85A18A2A2BA381BB0097163E /* Project object */;
+}
