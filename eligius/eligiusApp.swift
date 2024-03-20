@@ -93,6 +93,10 @@ struct MyMenu: View {
             minWidth: 350, maxWidth: 350,
             minHeight: 200, maxHeight: 200
         )
+
+            .onAppear() {
+                chromeless()
+            }
     }
 }
 

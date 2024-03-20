@@ -75,7 +75,8 @@ struct ContentView: View {
                     // }
 
 
-                    var now = Date()
+                  chromeless()
+                   var now = Date()
                     let formatter = DateFormatter()
                     formatter.dateFormat = "h:mm"
                     print("receive")
