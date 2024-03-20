@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851FE5AE2BAAAC880089B13E /* MenuBarExtraAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 851FE5AD2BAAAC880089B13E /* MenuBarExtraAccess */; };
 		85A18A362BA381BB0097163E /* eligiusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A18A352BA381BB0097163E /* eligiusApp.swift */; };
 		85A18A382BA381BB0097163E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A18A372BA381BB0097163E /* ContentView.swift */; };
 		85A18A3A2BA381BD0097163E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A18A392BA381BD0097163E /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		85A18A552BA3BB5A0097163E /* Ac437_Apricot_Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85A18A542BA3BB5A0097163E /* Ac437_Apricot_Mono.ttf */; };
 		85A18A5D2BA3BDC90097163E /* Epson2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85A18A5C2BA3BDC90097163E /* Epson2.otf */; };
 		85A18A5F2BA3BEBE0097163E /* OPTICaslon-ExtraCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85A18A5E2BA3BEBE0097163E /* OPTICaslon-ExtraCondensed.otf */; };
+		85B20E112BA9996B001BC186 /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = 85B20E102BA9996B001BC186 /* HotKey */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851FE5AE2BAAAC880089B13E /* MenuBarExtraAccess in Frameworks */,
+				85B20E112BA9996B001BC186 /* HotKey in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +100,10 @@
 			dependencies = (
 			);
 			name = eligius;
+			packageProductDependencies = (
+				85B20E102BA9996B001BC186 /* HotKey */,
+				851FE5AD2BAAAC880089B13E /* MenuBarExtraAccess */,
+			);
 			productName = eligius;
 			productReference = 85A18A322BA381BB0097163E /* eligius.app */;
 			productType = "com.apple.product-type.application";
@@ -124,6 +132,10 @@
 				Base,
 			);
 			mainGroup = 85A18A292BA381BB0097163E;
+			packageReferences = (
+				85B20E0F2BA9996A001BC186 /* XCRemoteSwiftPackageReference "HotKey" */,
+				851FE5AC2BAAAC880089B13E /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */,
+			);
 			productRefGroup = 85A18A332BA381BB0097163E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -350,6 +362,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		851FE5AC2BAAAC880089B13E /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orchetect/MenuBarExtraAccess";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		85B20E0F2BA9996A001BC186 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		851FE5AD2BAAAC880089B13E /* MenuBarExtraAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 851FE5AC2BAAAC880089B13E /* XCRemoteSwiftPackageReference "MenuBarExtraAccess" */;
+			productName = MenuBarExtraAccess;
+		};
+		85B20E102BA9996B001BC186 /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85B20E0F2BA9996A001BC186 /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 85A18A2A2BA381BB0097163E /* Project object */;
 }
